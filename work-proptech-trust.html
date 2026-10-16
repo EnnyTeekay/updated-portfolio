@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+
+
+
+
+
+<title>
+   The rental trust infrastructure — Eniola Ajayi-Bembe
+  </title>
+<meta content="website" property="og:type"/>
+<meta content="Why finding, leasing, and managing rental property is still manual, and solution paths to improve trust and address data gaps in the renting process." name="description"/>
+<meta content="PropTech — Case Study" property="og:title"/>
+<meta content="Why finding, leasing, and managing rental property is still manual, and solution paths to improve trust and address data gaps in the renting process." property="og:description"/>
+
+<meta content="summary_large_image" name="twitter:card"/>
+
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="True" src="script.js">
+</script>
+</head>
+<body>
+<div class="s1">
+<nav class="s2">
+<div class="s3">
+<a class="s4" href="index.html">
+      Eniola Ajayi-Bembe
+     </a>
+<div class="s5">
+<a class="s7" href="index.html">
+       Home
+      </a>
+<a aria-current="page" class="s6" href="work.html">
+       Work
+      </a>
+<a class="s7" href="about.html">
+       About
+      </a>
+<a class="s7" href="contact.html">
+       Contact
+      </a>
+</div>
+<div class="s8">
+<a aria-current="page" class="active s9" href="work.html">
+       View work
+      </a>
+<a class="s10" href="mailto:eniolaajayibembe@gmail.com">
+       Get in touch
+      </a>
+</div>
+</div>
+</nav>
+<section class="s11 reveal">
+<div class="s12">
+<a aria-current="page" class="active s108" href="work.html">
+      ← All work
+     </a>
+<div class="s109">
+      PropTech · Real Estate · Marketplace · Case Study
+     </div>
+<h1 class="s110">
+      The rental market in Nigeria lacks a trust infrastructure
+     </h1>
+<p class="s101">
+      Why finding, leasing, and managing rental property is still manual, and solution paths to improve trust and address data gaps in the renting process.
+     </p>
+<div class="s111">
+<img alt="The rental market in Nigeria lacks a trust infrastructure" class="s112" src="assets/images/Proptech_cover_v2.jpg"/>
+</div>
+<div class="s113">
+<div class="s114">
+<div class="s53">
+        Role
+       </div>
+<div class="s115">
+        Product Manager &amp; Researcher
+       </div>
+</div>
+<div class="s116">
+<div class="s53">
+        Timeline
+       </div>
+<div class="s115">
+        Case study
+       </div>
+</div>
+<div class="s116">
+<div class="s53">
+        Team
+       </div>
+<div class="s115">
+        Solo project
+       </div>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s11 reveal">
+<div class="s12">
+<div class="s24">
+      Overview
+     </div>
+<div class="s117">
+<h2 class="s118">
+       The context
+      </h2>
+<div>
+<p class="s119">
+        The global rental process is fragmented; finding, securing, and managing a rental property remains difficult. There are unverified listings, communication gaps, and cash payment issues. This teardown identifies the trust, communication, and data failures with the current system and contains suggested solutions to improve the rental process in Nigeria.
+       </p>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Context and Problems
+     </div>
+<div class="s117">
+<h2 class="s118">
+       No formal trust layer
+      </h2>
+<div>
+<p class="s119">
+        There's practically no formal infrastructure managing the rental process in Nigeria. Renters discover properties through unregulated agents, Facebook groups, WhatsApp messages, and Twitter posts. Rental agreements are sometimes handwritten Word documents, hastily prepared and signed. Deposit and payment disputes have no formal resolution process. Every online listing could be fake, already rented, or nothing like its description, and there's no way to know until a viewing fee is paid.
+       </p>
+<div class="s124">
+<div class="s125">
+         Driving question
+        </div>
+<p class="s126">
+         How do you build enough trust between strangers (a tenant, an agent, and a landlord), who've never met, that they're willing to enter into a financial agreement sight unseen and sustain that relationship digitally for the length of the tenancy?
+        </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      User Research
+     </div>
+<div class="s117">
+<h2 class="s118">
+       What the data says
+      </h2>
+<div>
+<ol class="s127">
+<li class="s136">
+<div class="s135">
+          0
+          <!-- -->
+          1
+         </div>
+<p class="s119">
+          Ghost listings account for a large number of listings on informal channels in Lagos and Nairobi. LASRERA found that nearly 18% of documents submitted for verification turn out to be forged, and ghost/fake listings are independently described as the most widespread scam type in the market.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          2
+         </div>
+<p class="s119">
+          Tenants spend significant money viewing houses that don't match their described preference, and pay repeated viewing fees across multiple agents for properties that turned out to be already rented or nothing like the listing.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          3
+         </div>
+<p class="s119">
+          Different agents show the same houses tenants have seen before, leading to wasted time and money.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          4
+         </div>
+<p class="s119">
+          Some listings are unverified and not directly managed by the agent featuring them; agents advertise units they don't control to generate leads.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          5
+         </div>
+<p class="s119">
+          A ten-year analysis of over $20B in rent payments found that renters paying offline are 23% more likely to pay late than those paying digitally.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          6
+         </div>
+<p class="s119">
+          Landlords report no structured management system, maintenance and communication is tracked via personal phone.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          7
+         </div>
+<p class="s119">
+          Agents without proper digital workflows end up managing 20+ listings via WhatsApp, photos, and memory.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          8
+         </div>
+<p class="s119">
+          There's no proper rental history data for tenants or landlords, so every tenancy starts from zero trust.
+         </p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Personas
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Who this is for
+      </h2>
+<div>
+<div class="s146">
+<div class="s147">
+<div class="s148">
+          Ada
+          <!-- -->
+          ,
+          <!-- -->
+          25
+         </div>
+<div class="s149">
+          A Business Analyst relocating to Lagos for a new job.
+         </div>
+<p class="s122">
+          She needs a verified, furnished apartment within two months.
+         </p>
+<div class="s150">
+<p class="s151">
+<span class="s152">
+            Pain point:
+           </span>
+           Every listing requires a viewing fee before she can confirm it's real; some listings don't exist, some don't match her stated requirements, and others are already rented.
+          </p>
+<p class="s153">
+<span class="s152">
+            Core need:
+           </span>
+           Verified listings with live availability, remote viewing, and a safe way to pay a holding deposit before she arrives.
+          </p>
+</div>
+</div>
+<div class="s147">
+<div class="s148">
+          Rotimi
+          <!-- -->
+          ,
+          <!-- -->
+          40
+         </div>
+<div class="s149">
+          A property owner managing over 5 units while working full time.
+         </div>
+<p class="s122">
+          Self-manages all apartments. Rent collection over WhatsApp, maintenance tracked on a notepad, tenant screening by gut feeling.
+         </p>
+<div class="s150">
+<p class="s151">
+<span class="s152">
+            Pain point:
+           </span>
+           When some of his tenants fall behind on rent in the same month, he has no formal escalation path and no record of prior communication to fall back on.
+          </p>
+<p class="s153">
+<span class="s152">
+            Core need:
+           </span>
+           A single dashboard for rent collection with automated reminders, a maintenance tracker with photo evidence, and structured tenant screening.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Root Cause Analysis
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Why this keeps happening
+      </h2>
+<div>
+<ol class="s127">
+<li class="s128">
+<div class="s129">
+          0
+          <!-- -->
+          1
+         </div>
+<div>
+<h3 class="s121">
+           No listing verification infrastructure
+          </h3>
+<p class="s119">
+           Anyone can post anything. There is no gatekeeping layer between a claim of ownership and a live public listing.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          2
+         </div>
+<div>
+<h3 class="s121">
+           Platform incentives stop at the transaction
+          </h3>
+<p class="s119">
+           Portals are paid for listings and leads, not sustained tenancies and nothing in the model rewards keeping data accurate.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          3
+         </div>
+<div>
+<h3 class="s121">
+           No formal small-claims pathway
+          </h3>
+<p class="s119">
+           Dispute resolution requires court access most tenants cannot afford, so bad actors face no consequence.
+          </p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      My Solution
+     </div>
+<div class="s117">
+<h2 class="s118">
+       The bet
+      </h2>
+<div>
+<div class="s124">
+<div class="s125">
+         Product hypothesis
+        </div>
+<p class="s126">
+         A marketplace platform that solves the trust gap between tenants and property owners through verified supply with real listings, structured digital tenancy management, AI-powered listing fraud detection, smart tenant-property matching, predictive maintenance, and automated dispute evidence collection.
+        </p>
+</div>
+<figure class="s142">
+<div class="s143">
+<img alt="Browse listing: search bar with verified and pending status chips on each result." class="s144" src="assets/images/proptech_browse_listing.jpg"/>
+</div>
+<figcaption class="s145">
+         Browse experience: every card carries a verification tier so trust is visible before contact.
+        </figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      How I Solved It
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Six moves to close the trust gap
+      </h2>
+<div>
+<ol class="s127">
+<li class="s128">
+<div class="s129">
+          0
+          <!-- -->
+          1
+         </div>
+<div>
+<h3 class="s121">
+           Verified supply, tiered
+          </h3>
+<p class="s119">
+           Every listing requires agent or landlord ID verification, property ownership documentation, a signed platform conduct agreement, and shows a visible verification tier.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          2
+         </div>
+<div>
+<h3 class="s121">
+           End-to-end digital tenancy
+          </h3>
+<p class="s119">
+           Digital lease generation, OTP e-signature, recurring rent collection with automated reminders, maintenance requests with photo upload, and a full on-platform communication log.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          3
+         </div>
+<div>
+<h3 class="s121">
+           Rental history as reputation
+          </h3>
+<p class="s119">
+           Tenants build a RentScore over time: on-time payment, lease completion, maintenance behaviour, verified landlord reviews. Landlords build a parallel profile. Strong scores unlock faster processing and reduced deposits.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          4
+         </div>
+<div>
+<h3 class="s121">
+           AI-powered matching
+          </h3>
+<p class="s119">
+           A matching engine that learns from preferences, browsing behaviour, and successful past tenancies to surface the right property at the right time, without 20 manual filters.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          5
+         </div>
+<div>
+<h3 class="s121">
+           Predictive maintenance
+          </h3>
+<p class="s119">
+           An AI model trained on property age, type, location, and maintenance history predicts when systems are likely to need attention, prompting landlords to schedule preventive inspections.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          6
+         </div>
+<div>
+<h3 class="s121">
+           Documented dispute evidence
+          </h3>
+<p class="s119">
+           Because every interaction lives on the platform, disputes have a paper trail, which is better than scrolling on WhatsApp. This gives escalation a proper structure and precedent.
+          </p>
+</div>
+</li>
+</ol>
+<figure class="s142">
+<div class="s143">
+<img alt="Onboarding flow: create account, verify identity with government ID and proof of ownership, pending review with 24–48h SLA." class="s144" src="assets/images/proptech_onboarding_flow.jpg"/>
+</div>
+<figcaption class="s145">
+         Onboarding: ID plus proof of ownership before a listing ever goes live.
+        </figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Prioritisation
+     </div>
+<div class="s117">
+<h2 class="s118">
+       MoSCoW
+      </h2>
+<div>
+<div class="s179">
+<div class="s180">
+<div class="s181">
+          Must have
+         </div>
+<ul class="s127">
+<li class="s182">
+           Human-verified listing system
+          </li>
+<li class="s183">
+           Digital lease &amp; e-signature
+          </li>
+<li class="s183">
+           Rent collection with reminders
+          </li>
+<li class="s183">
+           Maintenance request tracker
+          </li>
+</ul>
+</div>
+<div class="s180">
+<div class="s181">
+          Should have
+         </div>
+<ul class="s127">
+<li class="s182">
+           Tenant profile
+          </li>
+<li class="s183">
+           Landlord reputation profile
+          </li>
+<li class="s183">
+           On-platform documented communication
+          </li>
+<li class="s183">
+           Maintenance tracker
+          </li>
+</ul>
+</div>
+<div class="s180">
+<div class="s181">
+          Could have
+         </div>
+<ul class="s127">
+<li class="s182">
+           AI fraud detection model
+          </li>
+<li class="s183">
+           AI property matching
+          </li>
+<li class="s183">
+           Predictive maintenance alerts
+          </li>
+</ul>
+</div>
+<div class="s180">
+<div class="s181">
+          Won't have
+         </div>
+<ul class="s127">
+<li class="s182">
+           Mortgage integration
+          </li>
+<li class="s183">
+           Property investment analytics
+          </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Roadmap and Execution
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Three phases, not one launch
+      </h2>
+<div>
+<p class="s119">
+        If I were to ship this, I'd sequence it in three phases rather than launching all Must-have features simultaneously. I would launch with human-verified listings in the first three months, and treat the AI model as V2 once there's enough verified/rejected listing history to train on. This is the trade-off I'm least certain about: if verification volume grows faster than expected, human review becomes the bottleneck sooner than I've planned for.
+       </p>
+<p class="s120">
+        I would also cut AI-powered property matching and predictive maintenance from V1 for the same reason, they both need behavioural or historical data the platform won't have on day one. And I excluded mortgage integration and investment analytics entirely: they serve an institutional buyer, not the renter or small landlord this version is built for, and including them would dilute focus on the core trust problem.
+       </p>
+<p class="s120">
+        What would make V1: human-verified listings (ID, ownership documentation, signed conduct agreement, visible verification tier), end-to-end digital lease generation with OTP e-signature, recurring rent collection with automated reminders, maintenance request tracking with photo upload, and a full on-platform communication log.
+       </p>
+<p class="s120">
+        RentScore and landlord reputation profiles are valuable but should-haves; they only become meaningful once there's repeat usage data, so they follow shortly after launch. I would build them in phase 3, typically in the 6th – 12th month.
+       </p>
+<figure class="s142">
+<div class="s143">
+<img alt="Landlord dashboard: rent collected, tenants behind, open maintenance, unit list with rent status and lease end." class="s144" src="assets/images/proptech_landlord_dashboard.jpg"/>
+</div>
+<figcaption class="s145">
+         Landlord dashboard: rent status, lease timeline, and maintenance in one view.
+        </figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Go-to-Market
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Audience &amp; channels
+      </h2>
+<div>
+<div class="s155">
+<h3 class="s121">
+         Target audience
+        </h3>
+<ol class="s127">
+<li class="s136">
+<div class="s135">
+           0
+           <!-- -->
+           1
+          </div>
+<p class="s119">
+           Primary: urban renters 22 – 45 in high-mobility cities: Lagos, Nairobi, Accra, Johannesburg to start.
+          </p>
+</li>
+<li class="s137">
+<div class="s135">
+           0
+           <!-- -->
+           2
+          </div>
+<p class="s119">
+           Secondary: landlords managing 2 or more units, currently self-managing via WhatsApp and Telegram.
+          </p>
+</li>
+<li class="s137">
+<div class="s135">
+           0
+           <!-- -->
+           3
+          </div>
+<p class="s119">
+           Tertiary: estate agents seeking a verified listing pipeline and digital workflow.
+          </p>
+</li>
+</ol>
+</div>
+<div class="s156">
+<h3 class="s121">
+         Channels
+        </h3>
+<ol class="s127">
+<li class="s136">
+<div class="s135">
+           0
+           <!-- -->
+           1
+          </div>
+<p class="s119">
+           Agent referral programme: tiered commission on bringing in 10+ verified listings.
+          </p>
+</li>
+<li class="s137">
+<div class="s135">
+           0
+           <!-- -->
+           2
+          </div>
+<p class="s119">
+           Employer relocation partnerships: HR teams at large companies refer relocating hires.
+          </p>
+</li>
+<li class="s137">
+<div class="s135">
+           0
+           <!-- -->
+           3
+          </div>
+<p class="s119">
+           Social content targeting tenant anxiety: 'how to verify a listing', 'landlord red flags', 'protect your deposit'.
+          </p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Monetization
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Revenue paths
+      </h2>
+<div>
+<p class="s119">
+        A phased revenue model: a verification fee funds the review layer in phase 1, and commission on completed leases becomes the primary revenue engine at scale.
+       </p>
+<figure class="s142">
+<div class="s143">
+<img alt="Monetization: verification fee funds phase 1 review; commission on lease is primary revenue at scale." class="s144" src="assets/images/proptech_monetization.jpg"/>
+</div>
+<figcaption class="s145">
+         Monetization: verification fee first, commission-on-lease at scale.
+        </figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Success Metrics
+     </div>
+<div class="s117">
+<h2 class="s118">
+       What I'd track
+      </h2>
+<div>
+<ol class="s127">
+<li class="s136">
+<div class="s135">
+          0
+          <!-- -->
+          1
+         </div>
+<p class="s119">
+          Verified listing rates, to determine supply quality; measured by verification pipeline completion.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          2
+         </div>
+<p class="s119">
+          Tenant-to-lease conversion rate, to determine demand activation.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          3
+         </div>
+<p class="s119">
+          Rent on-time rate, to determine platform reliability; measured by payment timestamps vs due date.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          4
+         </div>
+<p class="s119">
+          Deposit dispute rate, as a trust signal; measured by disputes filed / total deposits held.
+         </p>
+</li>
+<li class="s137">
+<div class="s135">
+          0
+          <!-- -->
+          5
+         </div>
+<p class="s119">
+          Ghost listing rate, to determine supply quality; measured by user reports plus re-verification audits.
+         </p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      What this taught me
+     </div>
+<div class="s117">
+<h2 class="s118">
+       Lessons
+      </h2>
+<div>
+<ol class="s127">
+<li class="s128">
+<div class="s129">
+          0
+          <!-- -->
+          1
+         </div>
+<div>
+<h3 class="s121">
+           Supply quality is the entire product
+          </h3>
+<p class="s119">
+           Ten thousand unverified listings is worth less than five hundred verified ones. In marketplaces, supply quality determines whether demand ever returns. Validate willingness-to-pay for verification first, reputation only matters after the verification layer proves demand.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          2
+         </div>
+<div>
+<h3 class="s121">
+           Trust infrastructure takes longer than product infrastructure
+          </h3>
+<p class="s119">
+           Verification systems, reputation profiles, and dispute pathways require time, legal review, and partner relationships that a feature sprint can't compress.
+          </p>
+</div>
+</li>
+<li class="s130">
+<div class="s129">
+          0
+          <!-- -->
+          3
+         </div>
+<div>
+<h3 class="s121">
+           Landlords may resist the features that make this trustworthy for tenants
+          </h3>
+<p class="s119">
+           A documented communication log and public reviews reduce the informal leverage landlords hold in disputes. I'd expect pushback on reputation visibility and would roll it out by first proving landlord value (fewer late payments, faster qualified tenants) before asking for more transparency.
+          </p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<hr class="s23"/>
+<section class="s32 reveal">
+<div class="s12">
+<div class="s24">
+      Continue
+     </div>
+<div class="s163">
+<a class="s164" href="work-edtech-outcomes.html">
+<div class="s125">
+        ← Previous
+       </div>
+<div class="s141">
+        The EdTech Outcome Gap
+       </div>
+</a>
+<a class="s165" href="work-fintech-analysis.html">
+<div class="s125">
+        Next →
+       </div>
+<div class="s141">
+        Competitive Analysis on Fintech
+       </div>
+</a>
+</div>
+</div>
+</section>
+<footer class="s55">
+<div class="s56">
+<div class="s57">
+      ©
+      <!-- -->
+      2026
+      <!-- -->
+      Eniola Ajayi-Bembe
+     </div>
+<div class="s58">
+<a aria-current="page" class="active s59" href="work.html">
+       Work
+      </a>
+<a class="s59" href="about.html">
+       About
+      </a>
+<a class="s59" href="contact.html">
+       Contact
+      </a>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
+
